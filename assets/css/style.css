@@ -131,9 +131,77 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1199px) {
-  #header {
-    left: -300px;
+  #header{
+    height: 150px;
   }
+  .profile{
+   margin-top: -10%!important;
+ }
+ #header .profile img {
+  margin: 15px 15px;
+  display: block;
+  width: 100px;
+  border: 5px solid #2c2f3f;
+}
+.about1{
+  margin-left: 34%!important;
+  font-size: 30px!important;
+}
+.about1::before{
+  left: 49%!important;
+  width: 70px!important;
+  bottom: 26px!important;
+
+}
+
+.about1:after{
+  left: 49%!important;
+  width: 40px!important;
+  bottom: 21px!important;
+}
+.facts .count-box {
+  margin-left: 15%!important;
+}
+.tile-medium {
+  margin-left: 25%!important;
+
+}
+.connect{
+  font-size: 30px!important;
+}
+.connect1{
+  margin-left: 5%!important;
+}
+.sapna{
+  height: 400px!important;
+}
+.mobileDiv {
+  height: 260px!important;
+}
+ 
+
+.myClass{
+  width: 30%!important;
+}
+.width40{
+  width: 35%!important;
+}
+.nowidth{
+  width: 0%!important;
+}
+.marginTop {
+  margin-top: 15%!important;
+}
+
+#header .profile h1 {
+  font-size: 15px;
+  
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
 
   #main {
     margin-left: 0;
