@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: #041e3e;
-  overflow-y: auto;
+  
 }
 .copy{
   margin-top: 8%;
@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1199px) {
   #header{
     height: 150px;
+    overflow-y: auto;
   }
   .profile{
    margin-top: -10%!important;
