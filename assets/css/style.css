@@ -17,6 +17,10 @@ a {
   color: #149ddd;
   text-decoration: none;
 }
+.sticky-top{
+  z-index: 9999;
+  
+}
 
 a:hover {
   color: #37b3ed;
