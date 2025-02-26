@@ -1,13 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -135,78 +126,99 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1199px) {
-  #header{
+  #header {
     height: 150px;
     overflow-y: auto;
   }
-  .profile{
-   margin-top: -10%!important;
- }
- #header .profile img {
-  margin: 15px 15px;
-  display: block;
-  width: 100px;
-  border: 5px solid #2c2f3f;
-}
-.about1{
-  margin-left: 34%!important;
-  font-size: 30px!important;
-}
-.about1::before{
-  left: 49%!important;
-  width: 70px!important;
-  bottom: 26px!important;
+  
+  .profile {
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
 
-}
+  #header .profile img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: none;
+    object-fit: cover;
+  }
 
-.about1:after{
-  left: 49%!important;
-  width: 40px!important;
-  bottom: 21px!important;
-}
-.facts .count-box {
-  margin-left: 15%!important;
-}
-.tile-medium {
-  margin-left: 25%!important;
+  #header .profile h1 {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    -moz-text-align-last: center;
+    text-align-last: center;
+  }
 
-}
-.connect{
-  font-size: 30px!important;
-}
-.connect1{
-  margin-left: 5%!important;
-}
-.sapna{
-  height: 400px!important;
-}
-.mobileDiv {
-  height: 260px!important;
-}
+  .about1{
+    margin-left: 34%!important;
+    font-size: 30px!important;
+  }
+  .about1::before{
+    left: 49%!important;
+    width: 70px!important;
+    bottom: 26px!important;
+
+  }
+
+  .about1:after{
+    left: 49%!important;
+    width: 40px!important;
+    bottom: 21px!important;
+  }
+  .facts .count-box {
+    margin-left: 15%!important;
+  }
+  .tile-medium {
+    margin-left: 25%!important;
+
+  }
+  .connect{
+    font-size: 30px!important;
+  }
+  .connect1{
+    margin-left: 5%!important;
+  }
+  .sapna{
+    height: 400px!important;
+  }
+  .mobileDiv {
+    height: 260px!important;
+  }
  
 
-.myClass{
-  width: 30%!important;
-}
-.width40{
-  width: 35%!important;
-}
-.nowidth{
-  width: 0%!important;
-}
-.marginTop {
-  margin-top: 15%!important;
-}
+  .myClass {
+    width: 30% !important;
+    margin-top: 5px !important;
+  }
+  .width40 {
+    width: 40% !important;
+  }
+  .nowidth {
+    display: none !important;
+  }
+  .marginTop {
+    margin-top: 5px !important;
+  }
 
-#header .profile h1 {
-  font-size: 15px;
-  
-  padding: 0;
-  font-weight: 600;
-  -moz-text-align-last: center;
-  text-align-last: center;
-  font-family: "Poppins", sans-serif;
-}
+  #header .profile h1 {
+    font-size: 15px;
+    
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+  }
 
   #main {
     margin-left: 0;
