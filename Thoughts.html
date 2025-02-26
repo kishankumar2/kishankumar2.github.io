@@ -27,7 +27,29 @@
   <style>
     .custom-rounded-circle {
       border-radius: 50%;
-      object-fit: cover; /* Ensures the image covers the container completely */
+      object-fit: cover;
+      width: 160px;  /* Set specific width */
+      height: 160px; /* Set specific height */
+      margin: 15px auto 0;  /* Add margin to top and center horizontally */
+      display: block;  /* Ensure block display */
+      position: relative;  /* Enable positioning */
+        /* Move image up slightly */
+    }
+    .profile {
+      text-align: center;
+      padding: 0 20px;
+      margin-top: -20px; /* Move the entire profile section up */
+    }
+  
+    .profile h1 {
+      margin: 0;  /* Remove default margin */
+      position: relative;
+      top: 0px; /* Move the heading up */
+    }
+  
+    .text-light a {
+      position: relative;
+      top: -5px; /* Fine-tune the text position */
     }
   </style>
 
